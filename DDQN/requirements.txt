@@ -1,0 +1,9 @@
+
+## Usage
+
+### Training
+
+To train the DDQN agent:
+
+```bash
+python app.py --mode train --num_uavs 5 --static_obstacles 3 --dynamic_obstacles 2 --episodes 500 --render
